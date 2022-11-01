@@ -1,0 +1,21 @@
+.comic-section.hidden,
+.character-section.hidden {
+  display: none;
+}
+
+.comic-section,
+.character-section {
+  display: flex;
+  margin: 80px 10px 50px;
+}
+
+.comic-cover,
+.character-portrait {
+  max-width: 350px;
+  margin-right: 50px;
+}
+
+.comic-title,
+.character-name {
+  margin-top: 0;
+}
